@@ -4,11 +4,11 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 0px;
+    margin: 0px;
     background-image: url(./images/Ellipse\ 4.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-y: 120px;
+    background-position-y: 0px;
     background-position-x: 0px;
 }
 
@@ -243,9 +243,235 @@ header a.contact img {
 
     section.second_section {
         padding-top: 6%;
+        height: 64rem;
     }
     
-    .second_section .main_text h1 {
+   .second_section .main_text h1 {
         font-size: 5rem;
         font-weight: 600;
+        margin-bottom: 110px;
     }
+
+
+    section.second_section .hover-animated-section {
+        width: 50%;
+        float: left;
+    }
+    
+    section.second_section aside.right-side {
+        width: 50%;
+        float: right;
+    }
+    
+    section.second_section .hover-animated-section .side .outer {
+        display: flex;
+        column-gap: 36px;
+    }
+    
+    section.second_section .hover-animated-section .side .outer .inner.inner-1 {
+        width: 35px;
+    }
+
+    section.second_section .hover-animated-section .side .outer .inner.inner-2 img {
+        width: 40px;
+    }
+    
+    section.second_section .hover-animated-section .side .outer .inner.inner-2  h4.inner_headline {
+        margin-top: 4px;
+        margin-bottom: 6px;
+    }
+    
+    section.second_section .hover-animated-section .side .outer .inner.inner-2 {
+        width: 325px;
+        padding-bottom: 30px;
+    }
+    
+    section.second_section .hover-animated-section .side .outer .inner.inner-2 p.inner_description {
+        font-size: 14px;
+        color: #4d4b4b;
+    }
+
+    section.second_section .hover-animated-section .side .outer .inner.inner-1 h2 {
+        color: #cdcbcb;
+    }
+    
+    section.second_section .hover-animated-section .side .outer .inner.inner-1 {
+        border-right: 2px solid #cdcbcb;
+        padding-right: 50px;
+    }
+    
+    section.second_section .hover-animated-section .side:hover .outer .inner.inner-1 {
+        border-image: linear-gradient(184deg, #e91ed8, #b417c3, #b173f7, #8c5afd) 1;
+    }
+    
+    section.second_section .hover-animated-section .side:hover .outer .inner.inner-2 h4.inner_headline {
+         background: -webkit-linear-gradient(86deg, #e91ed8, #b417c3, #7b34cb, #1d24eb);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+    }
+    
+    section.second_section .hover-animated-section .side:hover .outer .inner.inner-1 h2 {
+        color: #000;
+    }
+    
+    section.second_section .hover-animated-section .side:hover {
+        cursor: pointer;
+    }
+
+    .right-side .container {
+        background-color: #fff;
+        padding-left: 4%;
+        padding-top: 2%;
+        border-radius: 17px 0px 0px 17px;
+    }
+    
+    section.second_section aside.right-side {
+        padding: 4%;
+        width: 44%;
+        padding-right: 0px;
+        background: rgb(213, 30, 177);
+    background: linear-gradient(4deg, rgb(233 100 207) 0%, rgba(196, 191, 196, 1) 44%, rgba(231, 231, 231, 1) 68%);
+    border-radius: 20px 0px 0px 20px;
+    padding-bottom: 7%;
+    overflow: hidden;
+    }
+    
+    .right-side .container .outer_sec .line ul {
+        display: flex;
+        padding-left: 0px;
+        list-style: none;
+        column-gap: 30px;
+        font-size: 12px;
+        color: #4f4e4e;
+    }
+
+    .right-side .under_section .box_1 {
+        width: 130px;
+        padding: 8px 20px;
+        border-radius: 17px;
+        box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+        margin-right: 10px;
+        background-color: #fff;
+    }
+    
+    .right-side .under_section .box_1>div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .right-side .under_section .box_1>div img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .right-side .under_section .box_1 h2.header {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    
+    .right-side .under_section .box_1>div p {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0px;
+    }
+    
+    .right-side .container .outer_sec {
+        margin-bottom: 52px;
+    }
+    
+    .right-side .container .outer_sec h4.headline {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+
+    .right-side .under_section {
+        display: flex;
+        position: relative;
+        top: 44px;
+        width: 558px;
+    }
+
+    footer {
+        background-color: #1F2023;
+        padding: 50px;
+    }
+    
+    footer  .container .links ul li {
+        display: inline-block;
+        list-style: circle;
+        padding-left: 14px;
+        padding-right: 14px;
+        color: #fff;
+        font-size: 14px;
+    }
+    
+   
+    footer  .container .links {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 58px;
+    }
+    
+    footer .container .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 43px;
+    }
+    
+    footer .container .logo img {
+        width: 200px;
+    }
+    
+    footer  article {
+        width: 32%;
+        margin: auto;
+    }
+    
+    footer article p {
+        text-align: center;
+        color: #737373;
+        line-height: 1.7;
+    }
+
+    footer .email_area input[type="text"] {
+        height: 77px;
+        font-size: 5rem;
+        width: 688px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    footer .email_area label.field {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #CC41E4;
+        padding-bottom: 30px;
+        width: 64%;
+        margin: auto;
+        margin-top: 60px;
+    }
+    
+    footer .email_area label.field img {
+        width: 38px;
+        padding: 20px;
+        border: 1px solid #ffffff36;
+        border-radius: 50%;
+    }
+    
+    footer .email_area input[type="text"]::placeholder {
+        color: #e9e7e729;
+    }
+    
+    footer .email_area {
+        margin-bottom: 36px;
+    }
+
+
+    @media screen and (max-width: 1400px){
+        body {
+         background-position-y: 169px;
+     }  
+         
+     }  
